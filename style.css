@@ -4,46 +4,41 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
 .items{
     background-color: white;
-    border:0.5px solid white;
     border-radius: 15px;
-    width: 45vh;
+    width: 310px;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
 }
 
 .img{
     width: 280px;
-    height: 280px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 14px;
 }
 
 .writing{
-    font-family: 'Roboto', sans-serif;
     padding: 5px;
-    display: block;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 .para1{
-    font-weight: bold;
-    padding: 5px;
+    font-weight: 700;
     font-size: 22px;
 }
 
 .para2{
-    font-weight: 400;
-    padding: 15px;
+    padding: 10px;
     font-size: 15px;
     color: gray;
 }
